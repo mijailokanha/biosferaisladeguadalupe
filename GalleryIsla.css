@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+.carousel {
+    text-align: center;
+    padding: 2rem;
+}
+
+.carousel-container {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    max-width: 600px;
+}
+
+.carousel-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.carousel-container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #4CAF50;
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 10px;
+}
+
+#next-btn {
+    right: 10px;
+}
+
+.blog,
+.shop {
+    padding: 2rem;
+    text-align: center;
+}
+
+.blog-post,
+.product {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+.footer-section {
+    margin: 1rem;
+    width: 250px;
+}
+
+.footer-section h3 {
+    color: #4CAF50;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.social-media a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
